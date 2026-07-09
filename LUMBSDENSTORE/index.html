@@ -1,0 +1,430 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LumsbdenStore</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="img/lumbsdenlogo.jpeg" alt="Logo LumsbdenStore">
+
+<h1>LumsbdenStore</h1>
+
+<nav>
+
+<a href="#">Inicio</a>
+
+<a href="#moda">Moda</a>
+
+<a href="#electronica">Electrónica</a>
+
+<a href="#">Contacto</a>
+
+<a href="carrito.html">
+Carrito 🛒
+</a>
+
+</nav>
+
+</header>
+
+
+<main>
+
+
+<section class="hero">
+
+<h2>
+Bienvenido a LumsbdenStore
+</h2>
+
+<p>
+Descubre productos seleccionados con estilo y calidad.
+</p>
+
+<button>
+Ver productos
+</button>
+
+</section>
+
+
+
+<!-- ================= MODA ================= -->
+
+
+<section class="productos" id="moda">
+
+<h2>
+Moda
+</h2>
+
+
+<div class="contenedor-productos">
+
+
+
+<!-- PRODUCTO HOMBRE -->
+
+<div class="producto">
+
+
+<a href="producto.html?id=hombre1">
+
+<img src="img/productos/moda/producto1.jpeg"
+alt="Conjunto Casual Elegante Hombre">
+
+</a>
+
+
+<h3>
+Conjunto Casual Elegante Hombre
+</h3>
+
+
+<p class="precio">
+$24.99
+</p>
+
+
+<button onclick="agregarAlCarrito({
+
+nombre:'Conjunto Casual Elegante Hombre',
+
+precio:'$24.99',
+
+imagen:'img/productos/moda/producto1.jpeg',
+
+talla:'Única',
+
+cantidad:1
+
+})">
+
+Agregar al carrito 🛒
+
+</button>
+
+
+</div>
+
+
+
+
+
+<!-- PRODUCTO MUJER -->
+
+
+<div class="producto">
+
+
+<a href="producto.html?id=mujer1">
+
+<img src="img/productos/moda/producto2.jpeg"
+alt="Conjunto Blanco Elegante Mujer">
+
+</a>
+
+
+<h3>
+Conjunto Blanco Elegante Mujer
+</h3>
+
+
+<p class="precio">
+$29.99
+</p>
+
+
+<button onclick="agregarAlCarrito({
+
+nombre:'Conjunto Blanco Elegante Mujer',
+
+precio:'$29.99',
+
+imagen:'img/productos/moda/producto2.jpeg',
+
+talla:'Única',
+
+cantidad:1
+
+})">
+
+Agregar al carrito 🛒
+
+</button>
+
+
+</div>
+
+
+
+
+
+<!-- VESTIDO -->
+
+
+<div class="producto">
+
+
+<a href="producto.html?id=vestido1">
+
+<img src="img/productos/moda/producto3.jpeg"
+alt="Vestido Corto Rojo">
+
+</a>
+
+
+<h3>
+Vestido Corto Rojo
+</h3>
+
+
+<p class="precio">
+$19.99
+</p>
+
+
+<button onclick="agregarAlCarrito({
+
+nombre:'Vestido Corto Rojo',
+
+precio:'$19.99',
+
+imagen:'img/productos/moda/producto3.jpeg',
+
+talla:'Única',
+
+cantidad:1
+
+})">
+
+Agregar al carrito 🛒
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- ================= ELECTRONICA ================= -->
+
+
+<section class="productos" id="electronica">
+
+
+<h2>
+Electrónica
+</h2>
+
+
+<div class="contenedor-productos">
+
+
+
+
+
+<!-- AUDIFONOS -->
+
+
+<div class="producto">
+
+
+<a href="producto.html?id=audifonos1">
+
+
+<img src="img/productos/electronica/imagen1.jpeg"
+alt="Audífonos Inalámbricos">
+
+
+</a>
+
+
+
+<h3>
+Audífonos Inalámbricos
+</h3>
+
+
+
+<p class="precio">
+$10.00
+</p>
+
+
+
+<button onclick="agregarAlCarrito({
+
+nombre:'Audífonos Inalámbricos',
+
+precio:'$10.00',
+
+imagen:'img/productos/electronica/imagen1.jpeg',
+
+talla:'Única',
+
+cantidad:1
+
+})">
+
+Agregar al carrito 🛒
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- SMART WATCH -->
+
+
+<div class="producto">
+
+
+<a href="producto.html?id=reloj1">
+
+
+<img src="img/productos/electronica/imagen2.jpeg"
+alt="Smart Watch con Audífonos">
+
+
+</a>
+
+
+
+<h3>
+Smart Watch con Audífonos
+</h3>
+
+
+
+<p class="precio">
+$25.00
+</p>
+
+
+
+<button onclick="agregarAlCarrito({
+
+nombre:'Smart Watch con Audífonos',
+
+precio:'$25.00',
+
+imagen:'img/productos/electronica/imagen2.jpeg',
+
+talla:'Única',
+
+cantidad:1
+
+})">
+
+Agregar al carrito 🛒
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- BATERIA -->
+
+
+<div class="producto">
+
+
+<a href="producto.html?id=bateria1">
+
+
+<img src="img/productos/electronica/imagen3.jpeg"
+alt="Batería Recargable">
+
+
+</a>
+
+
+
+<h3>
+Batería Recargable
+</h3>
+
+
+
+<p class="precio">
+$30.00
+</p>
+
+
+
+<button onclick="agregarAlCarrito({
+
+nombre:'Batería Recargable',
+
+precio:'$30.00',
+
+imagen:'img/productos/electronica/imagen3.jpeg',
+
+talla:'Única',
+
+cantidad:1
+
+})">
+
+Agregar al carrito 🛒
+
+</button>
+
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<script src="js/carrito.js"></script>
+
+
+</body>
+
+</html>
+```

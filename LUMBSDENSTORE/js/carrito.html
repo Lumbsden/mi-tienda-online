@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrito | LumbsdenStore</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="img/lumbsdenlogo.jpeg" alt="Logo LumbsdenStore">
+
+        <h1>LumbsdenStore</h1>
+
+        <nav>
+
+            <a href="index.html">Inicio</a>
+
+            <a href="index.html#moda">Moda</a>
+
+            <a href="index.html#electronica">Electrónica</a>
+
+            <a href="carrito.html">Carrito 🛒</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="carrito">
+
+            <h2>Mi carrito 🛒</h2>
+
+            <!-- Productos agregados -->
+            <div id="listaCarrito" class="lista-carrito">
+
+                <p class="carrito-vacio">
+                    Tu carrito está vacío.
+                </p>
+
+            </div>
+
+            <!-- Resumen -->
+            <div class="resumen-carrito">
+
+                <h3>Resumen de compra</h3>
+
+                <div class="detalle-total">
+
+                    <span>Total:</span>
+
+                    <strong id="totalCarrito">
+                        $0.00
+                    </strong>
+
+                </div>
+
+                <button id="btnComprar">
+                    Continuar compra
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/carrito.js"></script>
+
+</body>
+
+</html>
